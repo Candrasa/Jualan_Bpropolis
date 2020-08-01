@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    tools:context=".EditTextFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:fontFamily="@font/quicksand_bold"
+            android:gravity="center"
+            android:padding="15dp"
+            android:text="Edit Text Title"
+            android:textColor="@color/colorWhite" />
+
+
+        <EditText
+            android:id="@+id/etTextToEdit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/border"
+            android:fontFamily="@font/quicksand"
+            android:hint="Text To Edit"
+            android:paddingStart="10dp"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btnEdit"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_margin="10dp"
+            android:text="Edit"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="false"
+            android:fontFamily="@font/quicksand_bold"/>
+    </LinearLayout>
+</RelativeLayout>
